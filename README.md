@@ -10,7 +10,7 @@ Drop the `entries_by_year` folder into `_addons`.
 	
 	{{ entries_by_year:nav_list }}
 	
-By default, the plugin will grab the current year and go back through the year 2000. You can use the `start_year` and `end_year` parameters. 
+By default, the plugin will grab the current year and go back through the year 2000. You can use the `start_year` and `end_year` parameters for more granular control of what the plugin outputs. 
 
 
 ### Parameters
