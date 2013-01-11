@@ -43,9 +43,10 @@ class Plugin_entries_by_year extends Plugin
             require_once('_app/statamic/core/entries/pi.entries.php');
             $entries = new Plugin_entries();
             $entries->attributes = array(
-              'folder' => $this->fetch_param('folder'),
-              'since' => "January 1, " . $year . "00:00:01",
-              'until' => "December 31, " . $year . "23:59:59"
+              'folder' => $this->fetch_param('folder', null),
+              'since' => "January 1, " . $year . "00:00:00",
+              'until' => "December 31, " . $year . "23:59:59",
+              'show_future' => $this->fetch_param('show_future', 'no')
             );
             $entries->content = $template;
 

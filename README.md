@@ -17,6 +17,7 @@ By default, the plugin will grab the current year and go back through the year 2
 - `folder`
 - `start_year`
 - `end_year`
+- `show_future`
 
 ## Example
 
@@ -59,8 +60,6 @@ Will produce:
 	</ul>
 	
 Big thanks to Mr. [Statamicist](http://statamicist.com) himself, [Fred LeBlanc](http://fredhq.com) for all his help.
-	
-		
 
 
 
